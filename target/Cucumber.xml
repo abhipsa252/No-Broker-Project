@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="154.381" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Commercial Functional Testing" name="Testing UI for Commercial page" time="20.83">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+Then User can see location field............................................passed
+And User can see localities or landmark field...............................passed
+And User can see Rent button................................................passed
+And User can see Buy button.................................................passed
+And User can see search button..............................................passed
+And User can see post free property ad......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing commercial with valid inputs" time="22.49">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+And User enter location.....................................................passed
+And User enter any three locality...........................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+Then User navigate to next page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing commercial metro option" time="30.494">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+And User enter location.....................................................passed
+And User enter any three locality...........................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+And User navigate to next page..............................................passed
+And User select metro option................................................passed
+And User select metro line..................................................passed
+And User select metro station...............................................passed
+And User select search button...............................................passed
+Then User navigate to maps page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing search button" time="20.072">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+And User enter location.....................................................passed
+And User enter any three locality...........................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+Then User navigate to next page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing commercial with invalid inputs" time="15.696">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+And User enter location.....................................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+Then User will not navigate to next page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing for Different Locations - #1.1" time="21.495">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+When User enter location....................................................passed
+And User enter any three localities "11"....................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+Then User navigate to next page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Commercial Functional Testing" name="Testing for Different Locations - #1.2" time="22.499">
+<system-out><![CDATA[
+Given User is in the No Broker website......................................passed
+When User clicks on the Commercial button...................................passed
+And user is on the Commercial Page..........................................passed
+When User enter dropdown button.............................................passed
+When User enter location....................................................passed
+And User enter any three localities "12"....................................passed
+And User select rent option.................................................passed
+And User enters property type...............................................passed
+And user select any one property............................................passed
+And User enter search button................................................passed
+Then User navigate to next page.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
